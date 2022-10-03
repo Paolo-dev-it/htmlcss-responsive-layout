@@ -114,3 +114,44 @@
   margin-bottom: 25px;
   color: rgb(0, 166, 255);
 }
+
+.plan-left-column,
+.plan-right-column {
+  padding: 30px 30px;
+  background-color: #9593e6;
+  text-align: center;
+}
+
+.app-dev {
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+  padding: 30px 30px;
+}
+
+.plan-left-column img {
+  width: 100%;
+}
+
+.plan-left-column h3 {
+  margin-top: 50px;
+  font-size: 2rem;
+  color: white;
+}
+
+.app-dev h3 {
+  font-size: 1.7rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.plan-right-column img {
+  width: 100%;
+}
+
+.fa-arrow-down {
+  background-color: #9593e6;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
