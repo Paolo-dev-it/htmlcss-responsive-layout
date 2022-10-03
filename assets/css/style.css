@@ -11,3 +11,40 @@
   color: white;
   font-size: 1.8rem;
 }
+
+.row-up-pres {
+  padding: 15px;
+}
+
+.demo-card {
+  border: 1px solid black;
+  padding: 30px 30px;
+  background-color: lightblue;
+  border-radius: 30px;
+}
+
+.demo-card h3 {
+}
+
+.demo-card img {
+  width: 100%;
+}
+
+.clean-code-card {
+  border: 1px solid black;
+  padding: 30px 30px;
+  background-color: lightblue;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.clean-code-card i {
+  font-size: 6rem;
+  color: rgb(0, 166, 255);
+}
+
+.clean-code-card h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
