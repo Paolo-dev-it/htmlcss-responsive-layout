@@ -24,6 +24,7 @@
 }
 
 .demo-card h3 {
+  color: rgb(0, 166, 255);
 }
 
 .demo-card img {
@@ -47,4 +48,69 @@
 .clean-code-card h3 {
   margin-top: 25px;
   margin-bottom: 25px;
+  color: rgb(0, 166, 255);
+}
+
+.row-down-pres {
+  padding: 15px;
+}
+
+.web-design-card {
+  border: 1px solid black;
+  padding: 30px 30px;
+  background-color: lightblue;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.web-design-card i {
+  font-size: 6rem;
+  color: rgb(0, 166, 255);
+}
+
+.web-design-card h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(0, 166, 255);
+}
+
+.dev-card {
+  border: 1px solid black;
+  padding: 30px 30px;
+  background-color: lightblue;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.dev-card i {
+  font-size: 6rem;
+  color: rgb(0, 166, 255);
+}
+
+.dev-card h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(0, 166, 255);
+}
+
+.branding-card {
+  border: 1px solid black;
+  padding: 30px 30px;
+  background-color: lightblue;
+  border-radius: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.branding-card i {
+  font-size: 6rem;
+  color: rgb(0, 166, 255);
+}
+
+.branding-card h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: rgb(0, 166, 255);
 }
