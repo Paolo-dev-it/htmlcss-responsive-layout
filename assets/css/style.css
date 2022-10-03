@@ -182,8 +182,19 @@ header {
   color: #9593e6;
 }
 
+.testimonial-card {
+  padding: 30px;
+  background-color: #9593e6;
+  border-radius: 30px;
+  margin: 0px 30px;
+  line-height: 2rem;
+  color: white;
+  text-align: center;
+}
+
 .testimonial-card img {
   width: 100%;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 425px) {
