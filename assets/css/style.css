@@ -190,6 +190,7 @@ header {
   line-height: 2rem;
   color: white;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .testimonial-card img {
@@ -198,6 +199,14 @@ header {
 }
 
 @media screen and (min-width: 425px) {
+  header {
+    width: 100%;
+    margin: auto;
+  }
+  .navbar {
+    width: 90%;
+    margin: 0 auto;
+  }
   .row-up-pres {
     display: flex;
     width: 100%;
@@ -231,6 +240,16 @@ header {
     margin: 10px;
   }
 
+  .planning {
+    width: 100%;
+    margin: auto;
+    background-color: #9593e6;
+  }
+
+  .plan-right-column {
+    width: 100%;
+  }
+
   .image-plan-container {
     display: flex;
     width: 90%;
@@ -244,6 +263,19 @@ header {
     margin-top: 50px;
     font-size: 2.4rem;
     color: white;
+  }
+
+  .partners {
+    width: 100%;
+  }
+
+  .testimonial-card {
+    display: flex;
+  }
+
+  .testimonial-content {
+    text-align: left;
+    margin-left: 20px;
   }
 }
 
