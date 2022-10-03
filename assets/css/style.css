@@ -146,6 +146,10 @@ header {
   color: white;
 }
 
+.plan-left-column p {
+  color: white;
+}
+
 .app-dev h3 {
   font-size: 1.7rem;
   margin-top: 25px;
@@ -161,6 +165,25 @@ header {
   padding: 10px;
   border-radius: 50%;
   margin-top: 20px;
+}
+
+.desc-testimonials {
+  padding: 30px;
+  text-align: center;
+}
+
+.desc-testimonials h4 {
+  padding-bottom: 25px;
+}
+
+.desc-testimonials h2 {
+  padding-bottom: 25px;
+  font-size: 2rem;
+  color: #9593e6;
+}
+
+.testimonial-card img {
+  width: 100%;
 }
 
 @media screen and (min-width: 425px) {
@@ -311,10 +334,6 @@ header {
 
   .plan-left-column img {
     width: 80%;
-  }
-
-  .plan-left-column p {
-    color: white;
   }
 
   .plan-left-column h3 {
