@@ -35,7 +35,7 @@ header {
 }
 
 .demo-card {
-  padding: 30px 30px;
+  padding: 30px 30px 0px 30px;
   background-color: lightblue;
   border-radius: 30px;
 }
@@ -46,6 +46,7 @@ header {
 
 .demo-card img {
   width: 100%;
+  display: block;
 }
 
 .clean-code-card {
@@ -198,9 +199,11 @@ header {
   margin-bottom: 30px;
 }
 
-.testimonial-card img {
-  width: 100%;
+.test-img-cont img {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .last-card {
@@ -296,7 +299,7 @@ header {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
   header {
     width: 100%;
   }
@@ -315,6 +318,10 @@ header {
   .demo-card {
     flex-basis: 70%;
     margin: 10px;
+  }
+
+  .img-demo-app img {
+    max-width: 250px;
   }
 
   .clean-code-card {
@@ -375,6 +382,10 @@ header {
 
   .testimonial-card {
     display: flex;
+  }
+
+  .test-img-cont img {
+    object-fit: cover;
   }
 
   .testimonial-content {
@@ -512,8 +523,8 @@ header {
   }
 
   .plan-left-column h3 {
-    margin-top: 50px;
-    font-size: 2.4rem;
+    margin: 30px 0px;
+    font-size: 2.1rem;
     color: white;
   }
 
