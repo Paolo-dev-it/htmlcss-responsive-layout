@@ -12,8 +12,6 @@ header {
   width: 100%;
   justify-content: space-between;
   padding: 20px;
-  align-items: center;
-  text-align: center;
 }
 
 .nav-right {
@@ -23,6 +21,15 @@ header {
 
 .menu-right {
   display: none;
+}
+
+.menu-right button {
+  background-color: white;
+  padding: 0.5rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 .pres-container {
@@ -516,21 +523,21 @@ button .fa-apple {
     margin: 0 auto;
   }
 
+  .nav-left img {
+    align-items: center;
+  }
+
   .nav-right i {
     display: none;
   }
 
-  .nav-right {
-    text-align: center;
+  .nav-right .menu-right {
+    display: block;
     align-items: center;
   }
 
-  .nav-right .menu-right {
-    display: block;
-  }
-
   .menu-right span {
-    margin: 15px;
+    margin: 25px;
     font-size: 1rem;
   }
 
