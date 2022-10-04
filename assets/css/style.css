@@ -205,6 +205,7 @@ button .fa-apple {
 
 .desc-testimonials h4 {
   padding-bottom: 25px;
+  font-weight: 100;
 }
 
 .desc-testimonials h2 {
@@ -229,6 +230,11 @@ button .fa-apple {
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.testimonial-content h4 {
+  margin-top: 20px;
+  font-size: 1.2rem;
 }
 
 .last-card {
@@ -276,6 +282,13 @@ button .fa-apple {
 
 .benefit-card button {
   margin-top: 20px;
+  background-color: #9593e6;
+  color: white;
+  border: 0;
+  padding: 0.8rem 3rem;
+  border-radius: 30px;
+  letter-spacing: 3px;
+  font-weight: 700;
 }
 
 .about-us {
@@ -322,6 +335,15 @@ button .fa-apple {
 
 .about-right-col button {
   margin-bottom: 30px;
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+  color: white;
+  background-color: #9593e6;
+  border: 0;
+}
+
+.about-right-col .fa-linkedin {
+  margin-right: 10px;
 }
 
 .get-started {
@@ -355,6 +377,17 @@ button .fa-apple {
 .get-started p {
   color: white;
   margin-bottom: 30px;
+}
+
+.get-started-container button {
+  padding: 1.3rem 3.5rem;
+  color: #9593e6;
+  border: 0;
+  background-color: white;
+  border-radius: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 1rem;
 }
 
 .get-started .get-started-copyright {
