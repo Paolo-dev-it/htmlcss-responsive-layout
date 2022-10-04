@@ -299,6 +299,49 @@ header {
   margin-bottom: 30px;
 }
 
+.get-started {
+  width: 100%;
+  background-color: #9593e6;
+  padding: 30px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.get-started h4 {
+  color: white;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.get-started h3 {
+  color: white;
+  font-weight: 800;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.get-started h2 {
+  color: rgb(255, 204, 0);
+  font-weight: 800;
+  margin-bottom: 30px;
+  font-size: 4rem;
+}
+
+.get-started p {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.get-started .get-started-copyright {
+  color: white;
+  font-size: 0.7rem;
+  margin-top: 30px;
+}
+
+.bullet {
+  margin: 0px 5px;
+}
+
 @media screen and (min-width: 768px) {
   header {
     width: 100%;
@@ -419,6 +462,11 @@ header {
   }
   .about-img-container {
     width: 70%;
+  }
+
+  .get-started-container {
+    width: 60%;
+    margin: 0 auto;
   }
 }
 
@@ -566,5 +614,10 @@ header {
 
   .about-img-container {
     width: 50%;
+  }
+
+  .get-started-container {
+    width: 60%;
+    margin: 0 auto;
   }
 }
