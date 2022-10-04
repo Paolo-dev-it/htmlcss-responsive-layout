@@ -48,12 +48,12 @@ header {
 }
 
 .demo-card h3 {
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .descr-demo button {
   color: white;
-  background-color: rgb(0, 166, 255);
+  background-color: rgb(7, 139, 255);
   padding: 1rem 4rem;
   border-radius: 30px;
   margin: 20px 0px;
@@ -81,13 +81,13 @@ button .fa-apple {
 
 .clean-code-card i {
   font-size: 6rem;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .clean-code-card h3 {
   margin-top: 25px;
   margin-bottom: 25px;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .row-down-pres {
@@ -104,13 +104,13 @@ button .fa-apple {
 
 .web-design-card i {
   font-size: 6rem;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .web-design-card h3 {
   margin-top: 25px;
   margin-bottom: 25px;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .dev-card {
@@ -123,13 +123,13 @@ button .fa-apple {
 
 .dev-card i {
   font-size: 6rem;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .dev-card h3 {
   margin-top: 25px;
   margin-bottom: 25px;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .branding-card {
@@ -142,13 +142,13 @@ button .fa-apple {
 
 .branding-card i {
   font-size: 6rem;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .branding-card h3 {
   margin-top: 25px;
   margin-bottom: 25px;
-  color: rgb(0, 166, 255);
+  color: rgb(7, 139, 255);
 }
 
 .plan-left-column,
@@ -170,6 +170,7 @@ button .fa-apple {
 
 .plan-left-column h3 {
   margin-top: 50px;
+  margin-bottom: 30px;
   font-size: 1.9rem;
   color: white;
 }
@@ -190,9 +191,11 @@ button .fa-apple {
 
 .fa-arrow-down {
   background-color: #9593e6;
-  padding: 10px;
   border-radius: 50%;
-  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 13px;
+  margin-top: 30px;
 }
 
 .desc-testimonials {
