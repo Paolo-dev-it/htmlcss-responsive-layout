@@ -685,8 +685,13 @@ button .fa-apple {
   }
 
   .partners {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .partners-container {
+    width: 70%;
+    margin: auto;
   }
 
   .ben-cards-container {
@@ -697,6 +702,20 @@ button .fa-apple {
   .single-card {
     flex-basis: calc(100% / 3);
     padding: 20px;
+  }
+
+  .benefits {
+    width: 100%;
+  }
+
+  .benefits-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .about-us {
+    width: 70%;
+    margin: 0 auto;
   }
 
   .about-img-container {
