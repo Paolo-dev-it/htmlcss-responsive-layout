@@ -8,6 +8,8 @@ header {
   background-color: rgb(7, 139, 255);
 }
 
+/* ------ NAVBAR SECTION ------ */
+
 .navbar {
   width: 100%;
   justify-content: space-between;
@@ -41,6 +43,8 @@ header {
   padding: 15px;
 }
 
+/* ------ SECTION DEMO APPLICATION ------*/
+
 .demo-card {
   padding: 30px 30px 0px 30px;
   background-color: lightblue;
@@ -71,6 +75,8 @@ button .fa-apple {
   display: block;
 }
 
+/* ------ SECTION CLEAN CODE ------*/
+
 .clean-code-card {
   padding: 30px 30px;
   background-color: lightblue;
@@ -94,6 +100,8 @@ button .fa-apple {
   padding: 15px;
 }
 
+/* ------ SECTION WEB DESIGN ------*/
+
 .web-design-card {
   padding: 30px 30px;
   background-color: lightblue;
@@ -112,6 +120,8 @@ button .fa-apple {
   margin-bottom: 25px;
   color: rgb(7, 139, 255);
 }
+
+/* ------ SECTION WEB-DEV ------ */
 
 .dev-card {
   padding: 30px 30px;
@@ -132,6 +142,8 @@ button .fa-apple {
   color: rgb(7, 139, 255);
 }
 
+/* ------ SECTION BRANDING ------ */
+
 .branding-card {
   padding: 30px 30px;
   background-color: lightblue;
@@ -150,6 +162,8 @@ button .fa-apple {
   margin-bottom: 25px;
   color: rgb(7, 139, 255);
 }
+
+/* ------ SECTION PLANNING ------ */
 
 .plan-left-column,
 .plan-right-column {
@@ -198,6 +212,8 @@ button .fa-apple {
   margin-top: 30px;
 }
 
+/* ------ SECTION PARTNERS ------ */
+
 .desc-testimonials {
   padding: 30px;
   text-align: center;
@@ -241,6 +257,8 @@ button .fa-apple {
   margin-bottom: 100px;
 }
 
+/* ------ SECTION BENEFITS ------ */
+
 .benefits {
   width: 100%;
   background-color: #9593e6;
@@ -250,7 +268,7 @@ button .fa-apple {
 
 .benefits h2 {
   font-size: 2.3rem;
-  text-align: center;
+  text-align: left;
 }
 
 .ben-cards-container {
@@ -290,6 +308,8 @@ button .fa-apple {
   letter-spacing: 3px;
   font-weight: 700;
 }
+
+/* ------ SECTION ABOUT US ------ */
 
 .about-us {
   padding: 30px;
@@ -345,6 +365,8 @@ button .fa-apple {
 .about-right-col .fa-linkedin {
   margin-right: 10px;
 }
+
+/* ------ SECTION GET-STARTED ------ */
 
 .get-started {
   width: 100%;
@@ -404,6 +426,8 @@ button .fa-apple {
   color: white;
 }
 
+/* ------ SECTION FOOTER - ( END ) ------ */
+
 .end {
   width: 100%;
   background-color: black;
@@ -424,10 +448,16 @@ button .fa-apple {
   header {
     width: 100%;
   }
+
+  /* ------ NAVBAR SECTION ------ */
+
   .navbar {
     width: 100%;
     margin: 0 auto;
   }
+
+  /* ------ PRESENTATION CONTAINER ( DEMO CARD ) SECTION ------ */
+
   .row-up-pres {
     display: flex;
   }
@@ -445,23 +475,33 @@ button .fa-apple {
     max-width: 250px;
   }
 
+  /* ------ CLEAN CODE SECTION ------ */
+
   .clean-code-card {
     flex-basis: 30%;
     margin-top: 0px;
     margin: 10px;
   }
 
+  /* ------ WEB-DESIGN SECTION ------ */
+
   .web-design-card {
     margin: 10px;
   }
+
+  /* ------ WEB-DEV SECTION ------ */
 
   .dev-card {
     margin: 10px;
   }
 
+  /* ------ BRANDING-CARD SECTION ------ */
+
   .branding-card {
     margin: 10px;
   }
+
+  /* ------ PLANNING CARD SECTION ------ */
 
   .planning {
     width: 100%;
@@ -497,6 +537,8 @@ button .fa-apple {
     color: white;
   }
 
+  /* ------ PARTNERS SECTION ------ */
+
   .partners {
     width: 100%;
   }
@@ -524,6 +566,8 @@ button .fa-apple {
     padding: 20px;
   }
 
+  /* ------ ABOUT US SECTION ------ */
+
   .about-container {
     display: flex;
   }
@@ -542,10 +586,14 @@ button .fa-apple {
     width: 70%;
   }
 
+  /* ------ GET STARTED SECTION ------ */
+
   .get-started-container {
     width: 60%;
     margin: 0 auto;
   }
+
+  /* ------ FOOTER SECTION ------ */
 
   .footer-container {
     width: 60%;
@@ -554,6 +602,8 @@ button .fa-apple {
 }
 
 @media screen and (min-width: 1024px) {
+  /* ------ NAVBAR SECTION ------ */
+
   .navbar {
     width: 70%;
     margin: 0 auto;
@@ -576,6 +626,8 @@ button .fa-apple {
     margin: 25px;
     font-size: 1rem;
   }
+
+  /* ------ DEMO APPLICATION SECTION ------ */
 
   .row-up-pres {
     width: 70%;
@@ -615,23 +667,33 @@ button .fa-apple {
     max-width: 570px;
   }
 
+  /* ------ CLEAN CODE SECTION ------ */
+
   .clean-code-card {
     flex-basis: 30%;
     margin-top: 0px;
     margin: 10px;
   }
 
+  /* ------ WEB DESIGN SECTION ------ */
+
   .web-design-card {
     margin: 10px;
   }
+
+  /* ------ WEB-DEV SECTION ------ */
 
   .dev-card {
     margin: 10px;
   }
 
+  /* ------ BRANDING-CARD SECTION ------ */
+
   .branding-card {
     margin: 10px;
   }
+
+  /* ------ PLANNING SECTION ------ */
 
   .planning {
     width: 100%;
@@ -684,6 +746,8 @@ button .fa-apple {
     font-size: 0.8rem;
   }
 
+  /* ------ PARTNERS SECTION ------ */
+
   .partners {
     width: 100%;
     margin: 0 auto;
@@ -704,6 +768,8 @@ button .fa-apple {
     padding: 20px;
   }
 
+  /* ------ BENEFITS SECTION ------ */
+
   .benefits {
     width: 100%;
   }
@@ -712,6 +778,8 @@ button .fa-apple {
     width: 70%;
     margin: 0 auto;
   }
+
+  /* ------ ABOUT-US SECTION ------ */
 
   .about-us {
     width: 70%;
@@ -722,10 +790,14 @@ button .fa-apple {
     width: 50%;
   }
 
+  /* ------ GET STARTED SECTION ------ */
+
   .get-started-container {
     width: 60%;
     margin: 0 auto;
   }
+
+  /* ------ FOOTER SECTION ------ */
 
   .footer-container {
     width: 60%;
