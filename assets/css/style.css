@@ -611,8 +611,8 @@ button .fa-apple {
     padding: 1rem 3rem;
   }
 
-  .img-demo-app {
-    width: 100%;
+  .img-demo-app img {
+    max-width: 570px;
   }
 
   .clean-code-card {
